@@ -89,7 +89,7 @@ int 	HealthProfile::getAge()
 }
 
 void	HealthProfile::displayBMITable() {
-	cout	<< "BMI: " << getBMI() << endl << endl
+	cout	<< "BMI:\t\t" << getBMI() << endl << endl
 		<< "Underweight:\t" << BMI_UNDER << endl
 		<< "Normal:\t\tbetween " << BMI_NORMAL_MIN << " and " << BMI_NORMAL_MAX << endl
 		<< "Overwoight:\tbetween " << BMI_OVER_MIN << " and " << BMI_OVER_MAX << endl

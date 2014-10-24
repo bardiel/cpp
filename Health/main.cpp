@@ -29,9 +29,7 @@ int main(int argc, char const *argv[])
 	cout << "Birth month: ";
 	cin >> m;
 	cout << "Birth day: ";
-	cin >> y;
-
-	cout << y;
+	cin >> d;
 
 	bool loop;
 	do
@@ -49,9 +47,8 @@ int main(int argc, char const *argv[])
 	cin >> w;
 
 	HealthProfile userProfile(name, last, g, y, m, d, h, w);
-
+	cout << endl;
 	userProfile.displayBMITable();
-
 	cout << "Target heart rate between " << userProfile.getMinTargetHeartRate() << " and " << userProfile.getMaxTargetHeartRate() << " BPM." << endl;
 
 	return 0;

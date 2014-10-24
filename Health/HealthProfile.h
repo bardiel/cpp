@@ -37,6 +37,7 @@ public:
 	int getMaxTargetHeartRate();
 	int getAge();
 	void displayBMITable();
+	
 private:
 	Date birthdate;
 	string first_name;
